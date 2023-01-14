@@ -1,0 +1,87 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+  
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgb(247, 195, 172);
+  color: #c71d1d;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: rgb(255, 246, 195);
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: rgb(183, 125, 221);
+}
+</style>
+</head>
+
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="video/pexels-polina-kovaleva-6965648.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+  <h1>Welcome to my page !</h1>
+  <p>Explore further to discover one person's time capsule and life tunnel &#127800;</p>
+  <p>This website contains snippets of my life, from the past, and the current. There are several parts in this website, that you can enjoy reading to get know me. My Biodata, Family Biodata, Contact, Gallery and Education</p>
+    <p>
+        <button id="myBtn"><a href="index.html">Home</a></button>
+        <button id="myBtn"><a href="biodata.html">Biodata</a></button>
+        <button id="myBtn"><a href="family.html">Family</a></button>
+        <button id="myBtn"><a href="contact.html">Contact</a></button>
+        <button id="myBtn"><a href="gallery.html">Gallery</a></button>
+        <button id="myBtn"><a href="education.html">Education</a></button>
+    </p> 
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+</html>
+

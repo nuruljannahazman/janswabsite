@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <title>Contact</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+</style>
+    </head>
+
+    <p style="text-align:center">
+        <!--Using image as hyperlink for local link-->
+        <a href="index.html"><img src="images/button home.png"></a>
+        <a href="biodata.html"><img src="images/button biodata.png"></a>
+        <a href="family.html"><img src="images/button family.png"></a>
+        <a href="contact.html"><img src="images/button contact.png"></a>
+        <a href="gallery.html"><img src="images/button gallery.png"></a>
+        <a href="education.html"><img src="images/button education.png"></a> 
+    </p>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <html>
+        <head>
+            <link rel="stylesheet" type="text/css" href="clock_style.css">
+            <script type="text/javascript">
+                window.onload = setInterval(clock,1000);
+
+                function clock()
+                {
+                    var d = new Date();
+
+                    var date = d.getDate();
+
+                    var month = d.getMonth();
+                    var montharr =["Jan", "Feb", "Mar", "April", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
+                    month=montharr[month];
+
+                    var year = d.getFullYear();
+
+                    var day = d.getDay();
+                    var dayarr =["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+                    day=dayarr[day];
+
+                    var hour =d.getHours();
+                    var min =d.getMinutes();
+                    var sec =d.getSeconds();
+
+                    document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+                    document.getElementById("time").innerHTML=hour+":" +min+":"+sec;
+                }
+                </script>
+        </head>
+
+        <body>
+            <p id="date"></p>
+            <p id="time"></p>
+        </body>
+
+    </html>
+   
+    <audio controls>
+        <source src="audio/yt5s.io - Chloe Chua - A. Vivaldi_ Concerto No. 4 in f minor, Op. 8, RV 297, 'Winter' (64 kbps).mp3" type="audio/ogg">
+        <source src="audio/yt5s.io - Chloe Chua - A. Vivaldi_ Concerto No. 4 in f minor, Op. 8, RV 297, 'Winter' (64 kbps).mp3" type="audio/mpeg">
+        Your browsr does not support the audio element
+   
+    </audio>
+
+    <body background="images/wallpaper 8.jpg"></body>
+    <body>
+
+        <h1><i><a name="contact"> <p align="center" style="background-color:rgb(224, 235, 245); border: 3px solid rgb(33, 88, 58); ">Contact</p></a></i></h1>
+
+        <p style="font-family:Arial, Helvetica, sans-serif"><b>
+         Reach me out through these available platforms, and click the icons for shortcut:   
+        </b></p>
+
+    <style>
+        table, th, td
+        {
+            border: 2px solid rgb(48, 57, 141);
+            border-style: dashed;
+        }
+        td
+        {
+            text-align: center;
+            font-family:Arial, Helvetica, sans-serif
+        
+        }
+        th, td
+        {
+            padding: 10px;
+            background-color:rgb(245, 241, 225)
+        }
+
+    </style>
+        <table style="width: 80%;" align="center">
+
+            <ol>
+                <!--Using image as hyperlink for global link-->
+
+            <tr style= "font-family: Arial, Helvetica, sans-serif; color:rgb(163, 16, 139)">
+                <th>Platforms</th>
+                <th>Details</th>
+                <th>Icon</th>
+             </tr>
+
+             <tr style="color:rgb(70, 56, 179)">
+                <td><li>E-Mail (Personal):</li></td>
+                <td><a href="mailto:nuruljannah.azman26302@gmail.com/">nuruljannah.azman26302@gmail.com</a></td>
+                <td><a href="mailto:nuruljannah.azman26302@gmail.com/"><img src="images/mail icon.png" width="30px"></a></td>
+             </tr>
+
+             <tr style="color:rgb(202, 1, 135)">
+                <td><li>Phone Number:</li></td>
+                <td><a href="+60124231785">+60124231785</a></td>
+                <td><a href="tel:+60124231785"><img src="images/phone icon.png" width="30px"></a></td>
+             </tr>
+
+             <tr style="color:rebeccapurple">
+                <td><li>Instagram:</li></td>
+                <td><a href="https://www.instagram.com/heyjanhere/">@heyjanhere</a></td>
+                <td><a href="https://www.instagram.com/heyjanhere/"><img src="images/ig icon.png" width="30px"></a</td>
+             </tr>
+
+        </table>
+    </ol>
+
+       <p align="right">
+            <a href="index.html">Home</a>
+            <a href="biodata.html">Biodata</a>
+            <a href="family.html">Family</a>
+            <a href="contact.html">Contact</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="education.html">Education</a>
+        </p> 
+
+    </body>
+</html>

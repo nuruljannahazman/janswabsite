@@ -1,0 +1,54 @@
+body
+{
+    background-color:linen;
+}
+
+a:link
+{
+    color:darkgreen;
+    background-color:rgb(187, 216, 211);
+    text-decoration: none;
+    padding: 15px;
+    display:inline-block;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+a:visited
+{
+    color:darkslategray;
+    background-color:rgb(187, 216, 211);
+    text-decoration: none;
+    padding: 15px;
+    display:inline-block;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+a:hover
+{
+    color:darkgreen;
+    background-color:beige;
+    text-decoration:underline;
+    padding: 15px;
+    display:inline-flexbox;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+a:active
+{
+    color:cadetblue;
+    background-color:floralwhite;
+    text-decoration: none;
+    padding: 15px;
+    display:shadow;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h1
+{
+    color:darkslategray;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+
+
+   

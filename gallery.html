@@ -1,0 +1,313 @@
+<html>
+    <head>
+        <title>Gallery</title>        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+</style>
+    </head>
+
+    <p style="text-align:center">
+        <!--Using image as hyperlink for local link-->
+        <a href="index.html"><img src="images/button home.png"></a>
+        <a href="biodata.html"><img src="images/button biodata.png"></a>
+        <a href="family.html"><img src="images/button family.png"></a>
+        <a href="contact.html"><img src="images/button contact.png"></a>
+        <a href="gallery.html"><img src="images/button gallery.png"></a>
+        <a href="education.html"><img src="images/button education.png"></a> 
+    </p>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <html>
+        <head>
+            <link rel="stylesheet" type="text/css" href="clock_style.css">
+            <script type="text/javascript">
+                window.onload = setInterval(clock,1000);
+
+                function clock()
+                {
+                    var d = new Date();
+
+                    var date = d.getDate();
+
+                    var month = d.getMonth();
+                    var montharr =["Jan", "Feb", "Mar", "April", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
+                    month=montharr[month];
+
+                    var year = d.getFullYear();
+
+                    var day = d.getDay();
+                    var dayarr =["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+                    day=dayarr[day];
+
+                    var hour =d.getHours();
+                    var min =d.getMinutes();
+                    var sec =d.getSeconds();
+
+                    document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+                    document.getElementById("time").innerHTML=hour+":" +min+":"+sec;
+                }
+                </script>
+        </head>
+
+        <body>
+            <p id="date"></p>
+            <p id="time"></p>
+        </body>
+
+    </html>
+
+    <audio controls>
+        <source src="audio/Lyodra, Andi Rianto - Sang Dewi (Official Music Video).mp3"  type="audio/ogg">
+        <source src="audio/Lyodra, Andi Rianto - Sang Dewi (Official Music Video).mp3" type="audio/mpeg">
+        Your browsr does not support the audio element
+    </audio>
+    
+    <body background="images/wallpaper 13.jpg"></body>
+
+    <body>
+
+     <h1><i><a name="Gallery"> <p align="center" style="background-color:rgb(243, 179, 198); border: 3px solid rgb(207, 113, 126); ">Gallery &#128159;</p></a></i></h1>
+       
+     <b><p align="center" style="color:rgb(158, 0, 92); font-family: Arial, Helvetica, sans-serif;">
+    ~A trip to memory lane~</p></b>
+
+    <style>
+        table, th, td
+        {
+            border: 3px solid rgb(250, 89, 156);
+            border-style: dashed;
+            background-color: aliceblue;
+        }
+        td
+        {
+            text-align: center;
+        }
+        th, td
+        {
+            padding: 10px;
+        }
+
+    </style>
+
+      <table style="width: 100%;">
+
+            <tr style="font-family:Arial, Helvetica, sans-serif">
+                <td><img src="images/g1.jpg" alt="When i was a kid" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>When I was a kid; cheeky and always in shorts &#128512;</p>
+                </td>
+
+                <td><img src="images/g2.jpg" alt="Girlfriends in highschool" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Girlfriends in highschool! They are the sweetest</p>
+                </td>
+                    
+                <td><img src="images/g3.jpg" alt="My circle" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>My closest friends, my circle, my <strike>annoying</strike> joy</p>
+                </td>
+             
+                <td><img src="images/g4.jpg" alt="Graduation day" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Graduation Day</p>
+                </td>
+                
+                <td><img src="images/g5.jpg" alt="PT3 Result" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>PT3 Result Day</p>
+                </td>
+                
+                <td><img src="images/g6.jpg" alt="Us in Hanbok @ Daegu, South Korea, Exchange Student Program" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Us in Hanbok @ Daegu, South Korea</p>
+                </td>
+             </tr>
+
+            
+             <tr style="font-family:Arial, Helvetica, sans-serif">
+                <td><img src="images/g7.jpg" alt="Hari Raya Aidilfitri" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p><i>Hari Raya Aidilfitri</i> @ Taiping, Perak</p>
+                </td>
+
+                <td><img src="images/g8.jpg" alt="Sidang Redaksi" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Sidang Redaksi; Amir and I totally recovered this club. It was dead and the room was so dusty before</p>
+                </td>
+
+                <td><img src="images/g9.jpg" alt="Family photo" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Holiday with family &#128147;</p>
+                </td>
+                 
+                <td><img src="images/g10.jpg" alt="Curricular award" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Curricular Award; I was hungry so I wished for it to end as soon as possible</p>
+                </td>
+
+                <td><img src="images/g11.jpg" alt="Host family" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>With daughter and son of my host family @ Daegu, South Korea</p>
+                </td>
+
+                <td><img src="images/g12.jpg" alt="Skating Rink with Ji-Eun" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Skating Rink with Ji-Eun</p>
+                </td>
+             </tr>
+
+             <tr style="font-family:Arial, Helvetica, sans-serif">
+                <td><img src="images/g13.jpg" alt="SPM Result Day" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>SPM Result Day, its better than my expectations. I thought I flopped it</p>
+                </td>
+
+                <td><img src="images/g14.jpg" alt="cat" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Rode scooter with my cat and I think she despised it</p>
+                </td>
+
+                <td><img src="images/g15.jpg" alt="bird" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Overcame my fear of birds- and got bitten. Not trying that anymore</p>
+                </td>
+                 
+                <td><img src="images/g16.jpg" alt="Salmon Bagel" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>The best Salmon Bagel in town; The Coffee Bean & Tea Leaf</p>
+                </td>
+
+                <td><img src="images/g17.jpg" alt="TWG" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Favourite place to drink tea; Twinings Pavilion</p>
+                </td>
+
+                <td><img src="images/g18.jpg" alt="crab" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Tried Raw Marinated Crab and its yummy! I still think of it sometimes</p>
+                </td>
+             </tr>
+
+             <tr style="font-family:Arial, Helvetica, sans-serif">
+                <td><img src="images/g19.jpg" alt="Parents" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Favourite photo of Abah and Mak. Guess from who us siblings got our cheekiness from?</p>
+                </td>
+
+                <td><img src="images/g20.jpg" alt="Abah" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>That is right, from both of them. I have no idea what he is looking at through the straws</p>
+                </td>
+
+                <td><img src="images/g21.jpg" alt="Parents 2" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Mak's birthday! Abah told me to get her flowers THAT MORNING because he forgot to order it. So I picked the priciest one</p>
+                </td>
+                 
+                <td><img src="images/g22.jpg" alt="picnic" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Picnic with besties!</p>
+                </td>
+
+                <td><img src="images/g23.jpg" alt="Vios" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>My big girl purchase in 2022; my very first car! &#128663;</p>
+                </td>
+
+                <td><img src="images/g24.jpg" alt="Vivaldi" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Four Seasons by Vivaldi is my favourite orchestral performance of all time @ Malaysian Philharmonic Orchestra, Petronas KLCC</p>
+                </td>
+             </tr>
+             
+             <tr style="font-family:Arial, Helvetica, sans-serif">
+                <td><img src="images/g25.jpg" alt="boat" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>We rode a boat at Putrajaya Lake</p>
+                </td>
+
+                <td><img src="images/g26.jpg" alt="Bunny Hop" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Bunny Hop. I see no difference between bunnies and us. &#128007;</p>
+                    <p><strike>Both dies if we were left alone for like, 2 seconds</strike></p>
+                </td>
+
+                <td><img src="images/g27.jpg" alt="Cafe" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Recovering my soul and body with a good cup of tea <sub>and pretty faces</sub> after days of preparing for Dean's List and Graduation Tea Party event. Things were so hectic for IMCo members</p>
+                </td>
+                 
+                <td><img src="images/g28.jpg" alt="Class" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Class for this subject, I think I can <sup>survive</sup> this subject just because Madam is the one teaching it</p>
+                </td>
+
+                <td><img src="images/g29.jpg" alt="Healing" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Healing playing with the sand</p>
+                </td>
+
+                <td><img src="images/g30.jpg" alt="Sulam" height="200px" border="10" style="border-color:rgb(248, 200, 215)">
+                    <p>Sulam Event @ Lorong Seni Seremban. We had so much fun there</p>
+                </td>
+             </tr>
+
+             <tr style="font-family:Arial, Helvetica, sans-serif">
+
+                <td><video alt="Kayak" height="300px" controls>
+                    <source src="video/v1.mp4" type="video/mp4">
+                    <source src="video/v1.mp4" type="video/ogg">
+                    Your audio does not support the audio element
+                </video> >
+                <p>Kayak race with siblings</p>
+                </td>
+
+                <td><video alt="Horseriding" height="300px" controls>
+                    <source src="video/v2.mp4" type="video/mp4">
+                    <source src="video/v2.mp4" type="video/ogg">
+                    Your audio does not support the audio element
+                </video> >
+                <p>Horseriding Class @ Equestrian, Putrajaya</p>
+                </td>
+
+                <td><video alt="Solehah" height="300px" controls>
+                    <source src="video/v3.mp4" type="video/mp4">
+                    <source src="video/v3.mp4" type="video/ogg">
+                    Your audio does not support the audio element
+                </video> >
+                <p>Rare footage of Solehah hugging me</p>
+                </td>
+
+                <td><video alt="Orchestra" height="300px" controls>
+                    <source src="video/v4.mp4" type="video/mp4">
+                    <source src="video/v4.mp4" type="video/ogg">
+                    Your audio does not support the audio element
+                </video> >
+                <p>They blessed my ears</p>
+                </td>
+
+                <td><video alt="Daegu" height="300px" controls>
+                    <source src="video/v5.mp4" type="video/mp4">
+                    <source src="video/v5.mp4" type="video/ogg">
+                    Your audio does not support the audio element
+                </video> >
+                <p>Walking to Lotte World, Daegu Korea</p>
+                </td>
+
+                <td><video alt="Veil" height="300px" controls>
+                    <source src="video/IMG_4113.MP4" type="video/mp4">
+                    <source src="video/IMG_4113.MP4" type="video/ogg">
+                    Your audio does not support the audio element
+                </video>
+                <p>Favourite Manga of all time - Veil by Kotteri</p>
+                </td>
+
+             </tr>
+
+        </table> 
+       
+       
+       
+       
+       
+       
+    <p align="right">
+        <a href="index.html">Home</a>
+        <a href="biodata.html">Biodata</a>
+        <a href="family.html">Family</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="education.html">Education</a>
+    </p> 
+    </body>
+</html>
